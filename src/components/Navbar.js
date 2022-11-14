@@ -41,9 +41,9 @@ export class Navbar extends Component {
         <Link className="nav-link" to="/amed">Add medicine</Link>
       </li>}
 
-      {/* {this.props.data &&<li className="nav-item">
+      {this.props.data &&<li className="nav-item">
       <button type="button" onClick={this.props.func2} class="btn btn-danger mx-5">Log Out</button>
-      </li>} */}
+      </li>}
       
     </ul>
   </div>
