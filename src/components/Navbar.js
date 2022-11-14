@@ -16,6 +16,7 @@ export class Navbar extends Component {
 
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid">
   <Link className="navbar-brand" to="/">Medget</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@ export class Navbar extends Component {
       <li className="nav-item">
         <Link className="nav-link" to="/cmp">Composition</Link>
       </li>
-      {/* {!this.props.data &&<li className="nav-item">
+      {!this.props.data &&<li className="nav-item">
         <Link className="nav-link" to="/login">Admin login</Link>
       </li>}
       {this.props.data &&<li className="nav-item">
@@ -43,9 +44,10 @@ export class Navbar extends Component {
 
       {this.props.data &&<li className="nav-item">
       <button type="button" onClick={this.props.func2} class="btn btn-danger mx-5">Log Out</button>
-      </li>} */}
+      </li>}
       
     </ul>
+    </div>
   </div>
 </nav>
     )
