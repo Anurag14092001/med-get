@@ -73,7 +73,7 @@ export default class
         <h2 style={{textAlign:"center"}}>Search By Composition</h2>
         <h6 style={{textAlign:"center"}}>gives a list of all the medicines which share the composition of the medicine</h6>
       <div class="input-group my-2">
-      <span class="input-group-addon">composition</span>
+      <span class="input-group-addon">Name</span>
       <input id="medicine" type="text" onChange={this.handle} value={this.state.medicine} class="form-control" name="msg" placeholder="Enter the medicine's name"/>
     </div>
       </form>
