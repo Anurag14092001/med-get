@@ -1,3 +1,5 @@
+
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -6,6 +8,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyA4k7aATGdqBuquTYrR8Tg3EHu5mKGt004",
   authDomain: "thsem-ac399.firebaseapp.com",
+  databaseURL: "https://thsem-ac399-default-rtdb.firebaseio.com",
   projectId: "thsem-ac399",
   storageBucket: "thsem-ac399.appspot.com",
   messagingSenderId: "629938684699",
@@ -14,3 +17,4 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const fire = initializeApp(firebaseConfig);
+
